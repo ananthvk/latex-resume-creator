@@ -2,6 +2,16 @@
 
 A flexible LaTeX resume generator that uses JSON data and Jinja2 templating to create resumes. Based on Jake's resume template. I built this application because it was tedious to manage multiple resumes for different applications.
 
+## Features
+
+- **JSON-based data**: Store all your resume information in a simple JSON file
+- **Template customization**: Modify the LaTeX template to change the layout and styling
+- **Selective content**: Enable/disable specific experiences, projects, and achievements for different applications
+- **Privacy controls**: Hide personal information like phone and email by storing them in a `.env` file
+- **Automated builds**: GitHub Actions automatically generates your PDF when you push changes, so no need to install LaTeX on your system.
+- **Docker support**: You can also run the application locally without installing LaTeX and other dependencies manually.
+- **Multiple resume versions**: Easy to maintain different versions for different job applications
+
 ## How to run? 
 ### To run on the cloud
 
