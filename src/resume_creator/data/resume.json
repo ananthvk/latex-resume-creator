@@ -1,0 +1,180 @@
+{
+    "personal_info": {
+        "name": "John Smith",
+        "phone": "+1-555-0123",
+        "email": "john.smith@email.com",
+        "linkedin": "linkedin.com/in/johnsmith123",
+        "github": "github.com/johnsmith123"
+    },
+    "education": [
+        {
+            "institution": "VTU Engineering college",
+            "location": "Bengaluru, Karnataka",
+            "degree": "Computer Science and Engineering",
+            "gpa": "8.5",
+            "duration": "Aug. 2020 -- May 2024"
+        }
+    ],
+    "skills": {
+        "languages": [
+            "C",
+            "C++",
+            "Java",
+            "Python",
+            "SQL",
+            "Javascript"
+        ],
+        "frameworks": [
+            "Django",
+            "Nest.js",
+            "React",
+            "Express.js"
+        ],
+        "developer_tools": [
+            "Git",
+            "Linux"
+        ],
+        "libraries": [
+            "pandas",
+            "numpy",
+            "matplotlib"
+        ],
+        "tools": [
+            "Microsoft Office",
+            "Adobe Creative Suite",
+            "Tableau"
+        ]
+    },
+    "enabled": {
+        "experiences": [
+            "software-engineer-techcorp"
+        ],
+        "projects": [
+            // "ai-chatbot",
+            "expense-tracker",
+            "weather-app",
+            // "todo-manager",
+            "portfolio-website"
+        ],
+        "achievements": [
+            "hackathon-winner",
+            "coding-competition",
+            "volunteer-award"
+        ]
+    },
+    "experiences": {
+        "software-engineer-techcorp": {
+            "title": "Software Engineer Intern",
+            "organisation": "TechCorp Solutions",
+            "duration": "Jun 2023 -- Aug 2023",
+            "description": [
+                "Developed web applications using React and Node.js for internal company tools",
+                "Collaborated with a team of 5 developers to implement new features and fix bugs",
+                "Participated in code reviews and followed agile development practices",
+                "Improved application performance by 25\\% through code optimization"
+            ]
+        }
+    },
+    "projects": {
+        "ai-chatbot": {
+            "title": "AI Chatbot Assistant",
+            "technologies": [
+                "Python",
+                "Flask",
+                "OpenAI API"
+            ],
+            "duration": "Mar 2024 -- Apr 2024",
+            "description": [
+                "Built an intelligent chatbot using OpenAI's GPT API for customer service automation",
+                "Implemented natural language processing to handle user queries and provide responses",
+                "Created a web interface using Flask and deployed on AWS EC2",
+                "Achieved 85\\% user satisfaction rate in beta testing with 200+ users"
+            ]
+        },
+        "expense-tracker": {
+            "title": "Personal Expense Tracker",
+            "technologies": [
+                "React",
+                "Node.js",
+                "MongoDB",
+                "Express.js"
+            ],
+            "duration": "Jan 2024 -- Feb 2024",
+            "description": [
+                "Developed a full-stack web application for tracking personal expenses and budgeting",
+                "Implemented user authentication and data visualization with interactive charts",
+                "Used MongoDB for data storage and Express.js for RESTful API development",
+                "Added features for expense categorization and monthly budget planning"
+            ]
+        },
+        "weather-app": {
+            "title": "Weather Forecast Application",
+            "technologies": [
+                "JavaScript",
+                "HTML/CSS",
+                "Weather API"
+            ],
+            "duration": "Nov 2023 -- Dec 2023",
+            "description": [
+                "Created a responsive weather application displaying current and 7-day forecasts",
+                "Integrated with OpenWeatherMap API for real-time weather data",
+                "Implemented geolocation services for automatic location detection",
+                "Added dark/light theme toggle and saved user preferences in local storage"
+            ]
+        },
+        "todo-manager": {
+            "title": "Task Management System",
+            "technologies": [
+                "Java",
+                "Spring Boot",
+                "MySQL"
+            ],
+            "duration": "Sep 2023 -- Oct 2023",
+            "description": [
+                "Built a task management application with user authentication and role-based access",
+                "Implemented CRUD operations for tasks with priority levels and due dates",
+                "Used Spring Boot framework with MySQL database for data persistence",
+                "Added email notifications for upcoming deadlines using JavaMail API"
+            ]
+        },
+        "portfolio-website": {
+            "title": "Personal Portfolio Website",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "GitHub Pages"
+            ],
+            "duration": "Aug 2023",
+            "description": [
+                "Designed and developed a responsive personal portfolio website from scratch",
+                "Implemented smooth scrolling navigation and interactive animations",
+                "Showcased projects with detailed descriptions and live demo links",
+                "Deployed using GitHub Pages with custom domain configuration"
+            ]
+        }
+    },
+    "achievements": {
+        "hackathon-winner": {
+            "title": "Hackathon Winner",
+            "description": "Won first place in the Annual Tech Innovation Hackathon, developing a mobile app for local businesses in 48 hours."
+        },
+        "coding-competition": {
+            "title": "Programming Competition",
+            "description": "Secured third place in the Regional Programming Contest, solving 8 out of 12 algorithmic problems."
+        },
+        "volunteer-award": {
+            "title": "Community Service Award",
+            "description": "Received recognition for volunteering 100+ hours teaching coding to underprivileged youth at local community center."
+        }
+    },
+    "interests": [
+        "Photography",
+        "Rock climbing",
+        "Chess",
+        "Cooking",
+        "Playing guitar",
+        "Hiking",
+        "Board games"
+    ]
+}

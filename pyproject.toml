@@ -1,0 +1,22 @@
+[project]
+name = "resume-creator"
+version = "0.1.0"
+description = "Resume creator"
+authors = [
+    {name = "ananthvk", email = "-"},
+]
+dependencies = ["Jinja2>=3.1.6", "python-dotenv>=1.1.1"]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
+
+[project.scripts]
+resume-creator = "resume_creator.main:run"

@@ -1,0 +1,56 @@
+name: Create resume PDF
+
+on:
+    push:
+        branches: [master]
+    pull_request:
+        branches: [master]
+
+jobs:
+    build-pdf:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout repo
+              uses: actions/checkout@v4
+
+            - name: Set up Python
+              uses: actions/setup-python@v4
+              with:
+                  python-version: '3.11'
+
+            - name: Create virtual environment
+              run: |
+                  python -m venv venv
+                  source venv/bin/activate
+                  echo "VIRTUAL_ENV=$VIRTUAL_ENV" >> $GITHUB_ENV
+                  echo "$VIRTUAL_ENV/bin" >> $GITHUB_PATH
+
+            - name: Install Python dependencies
+              run: |
+                  pip install --upgrade pip
+                  pip install jinja2 python-dotenv
+
+            - name: Generate LaTeX file
+              run: |
+                  cd src/resume_creator
+                  python main.py --stdout > ../../resume.tex
+
+            - name: Compile LaTeX to PDF
+              uses: xu-cheng/latex-action@v3
+              with:
+                  root_file: resume.tex
+                  args: -pdf -file-line-error -halt-on-error -interaction=nonstopmode
+
+            - name: Upload PDF artifact
+              uses: actions/upload-artifact@v4
+              with:
+                  name: resume-pdf
+                  path: resume.pdf
+                  retention-days: 30
+
+            - name: Upload LaTeX source
+              uses: actions/upload-artifact@v4
+              with:
+                  name: resume-tex
+                  path: resume.tex
+                  retention-days: 30
