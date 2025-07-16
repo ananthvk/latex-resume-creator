@@ -43,6 +43,8 @@ Note: It will take some time (a few minutes) to install the required tex package
 
 To modify the content of the resume, edit `src/resume_creator/data/resume.json` and `src/resume_creator/templates/resume.tex`
 
+If you do not want to re-generate the resume on each push, maintain a `develop` branch, then whenever you want a pdf, merge with the `master` branch.
+
 #### Privacy Controls
 
 Set environment variables to control personal information:
