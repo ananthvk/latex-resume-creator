@@ -1,6 +1,6 @@
 # LaTeX Resume Creator
 
-![Build](https://img.shields.io/github/actions/workflow/status/ananthvk/latex-resume-creator/build.yml?branch=master)
+![Build](https://img.shields.io/github/actions/workflow/status/ananthvk/latex-resume-creator/deploy.yaml?branch=master)
 ![MIT License](https://img.shields.io/github/license/ananthvk/latex-resume-creator)
 
 A flexible LaTeX resume generator that uses JSON data and Jinja2 templating to create resumes. Based on Jake's resume template. I built this application because it was tedious to manage multiple resumes for different applications.
