@@ -3,14 +3,18 @@
 A flexible LaTeX resume generator that uses JSON data and Jinja2 templating to create resumes. Based on Jake's resume template. I built this application because it was tedious to manage multiple resumes for different applications.
 
 ## How to run? 
+### To run on the cloud
 
-### Build the docker image
+Fork this repository and make your changes. Once you push it to the `master` branch, GitHub Actions will automatically trigger to build your resume. View "Actions" tab on your repository to monitor the build and resume generation process. You can download your resume from the `Upload PDF artifact` build step of the `build-pdf` job. 
+
+### To run locally
+#### Build the docker image
 
 ```bash
 docker build . -t resume
 ```
 
-### Run the application
+#### Run the application
 
 Either run the provided script `build.sh` with
 ```bash
@@ -29,7 +33,7 @@ Note: It will take some time (a few minutes) to install the required tex package
 
 To modify the content of the resume, edit `src/resume_creator/data/resume.json` and `src/resume_creator/templates/resume.tex`
 
-### Privacy Controls
+#### Privacy Controls
 
 Set environment variables to control personal information:
 
@@ -39,6 +43,12 @@ export PHONE="+1234567890"
 export EMAIL="your.email@example.com"
 ```
 Then follow the above steps to generate the resume with your phone number and email.
+
+## Preview
+
+A sample resume was generated with dummy data. You can view it in `readme/` directory.
+
+![Screenshot of resume](readme/image.png)
 
 ## Credits
 
