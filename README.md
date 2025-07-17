@@ -24,6 +24,26 @@ Visit the Actions tab on your forked repo to track the build. Once completed, yo
 
 If you do not want to re-generate the resume on each push, maintain a `develop` branch, then whenever you want a pdf, merge with the `master` branch.
 
+### To run locally + Overleaf (or any other online LaTeX editor)
+
+If you do not want to install Docker or configure LaTeX installation locally, you can run the python script to generate the `.tex` file, then upload the file to an online LaTeX editor such as [Overleaf](https://www.overleaf.com/)
+
+First, ensure you have Python 3 installed. Then, install the required dependencies:
+
+Make sure to do it in a virtual environment.
+
+```bash
+pip install jinja2 python-dotenv
+```
+
+Generate the LaTeX file using:
+
+```bash
+python src/resume_creator/main.py --stdout > out.tex
+```
+
+You can then upload this file to Overleaf or any other online LaTeX editor to compile your resume PDF.
+
 ### To run locally
 #### Build the docker image
 
