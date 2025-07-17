@@ -95,3 +95,5 @@ A sample resume was generated with dummy data. You can view it in `readme/` dire
 Built on top of these LaTeX resume templates:
 - [Jake's resume](https://github.com/jakegut/resume)
 - [sb2nov's resume](https://github.com/sb2nov/resume/)
+
+Also inspired by [Resumake](https://resumake.io/) and it's system to maintain resume data with a JSON file. The only drawback of this site was that I could not version my resume or modify the prebuilt templates easily without first downloading the generated LaTeX file and then editing it. 
