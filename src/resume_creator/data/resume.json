@@ -1,180 +1,147 @@
 {
+    "_instructions": {
+        "_note": "This is a template file. Replace all placeholder values with your actual information.",
+        "personal_info": "Update with your name, phone, email, LinkedIn and GitHub URLs",
+        "education": "Add your educational background - institution, location, degree, GPA, duration",
+        "skills": "List your programming languages, frameworks, tools, etc.",
+        "enabled": "Control which experiences, projects, and achievements to include in your resume",
+        "experiences": "Add your work experience, internships, etc.",
+        "projects": "Add your personal/academic projects with technologies used",
+        "achievements": "Add awards, competitions, certifications, etc.",
+        "interests": "List your hobbies and interests"
+    },
     "personal_info": {
-        "name": "John Smith",
-        "phone": "+1-555-0123",
-        "email": "john.smith@email.com",
-        "linkedin": "linkedin.com/in/johnsmith123",
-        "github": "github.com/johnsmith123"
+        "name": "Your Full Name",
+        "phone": "+1-555-0000",
+        "email": "your.email@example.com",
+        "linkedin": "linkedin.com/in/yourprofile",
+        "github": "github.com/yourusername"
     },
     "education": [
         {
-            "institution": "VTU Engineering college",
-            "location": "Bengaluru, Karnataka",
-            "degree": "Computer Science and Engineering",
-            "gpa": "8.5",
-            "duration": "Aug. 2020 -- May 2024"
+            "institution": "Your University Name",
+            "location": "City, State/Country",
+            "degree": "Your Degree Program",
+            "gpa": "X.X",
+            "duration": "Start Date -- End Date"
         }
     ],
     "skills": {
         "languages": [
-            "C",
-            "C++",
-            "Java",
-            "Python",
-            "SQL",
-            "Javascript"
+            "Language1",
+            "Language2",
+            "Language3"
         ],
         "frameworks": [
-            "Django",
-            "Nest.js",
-            "React",
-            "Express.js"
+            "Framework1",
+            "Framework2",
+            "Framework3"
         ],
         "developer_tools": [
-            "Git",
-            "Linux"
+            "Tool1",
+            "Tool2"
         ],
         "libraries": [
-            "pandas",
-            "numpy",
-            "matplotlib"
+            "Library1",
+            "Library2",
+            "Library3"
         ],
         "tools": [
-            "Microsoft Office",
-            "Adobe Creative Suite",
-            "Tableau"
+            "Tool1",
+            "Tool2",
+            "Tool3"
         ]
     },
     "enabled": {
         "experiences": [
-            "software-engineer-techcorp"
+            "experience-key-1"
         ],
         "projects": [
-            // "ai-chatbot",
-            "expense-tracker",
-            "weather-app",
-            // "todo-manager",
-            "portfolio-website"
+            "project-key-1",
+            "project-key-2",
+            "project-key-3"
         ],
         "achievements": [
-            "hackathon-winner",
-            "coding-competition",
-            "volunteer-award"
+            "achievement-key-1",
+            "achievement-key-2"
         ]
     },
     "experiences": {
-        "software-engineer-techcorp": {
-            "title": "Software Engineer Intern",
-            "organisation": "TechCorp Solutions",
-            "duration": "Jun 2023 -- Aug 2023",
+        "experience-key-1": {
+            "title": "Your Job Title",
+            "organisation": "Company Name",
+            "duration": "Start Date -- End Date",
             "description": [
-                "Developed web applications using React and Node.js for internal company tools",
-                "Collaborated with a team of 5 developers to implement new features and fix bugs",
-                "Participated in code reviews and followed agile development practices",
-                "Improved application performance by 25\\% through code optimization"
+                "Description of what you did in this role",
+                "Another accomplishment or responsibility",
+                "Quantify your impact with numbers when possible",
+                "Use action verbs to start each bullet point"
             ]
         }
     },
     "projects": {
-        "ai-chatbot": {
-            "title": "AI Chatbot Assistant",
+        "project-key-1": {
+            "title": "Project Name 1",
             "technologies": [
-                "Python",
-                "Flask",
-                "OpenAI API"
+                "Technology1",
+                "Technology2",
+                "Technology3"
             ],
-            "duration": "Mar 2024 -- Apr 2024",
+            "duration": "Start Date -- End Date",
             "description": [
-                "Built an intelligent chatbot using OpenAI's GPT API for customer service automation",
-                "Implemented natural language processing to handle user queries and provide responses",
-                "Created a web interface using Flask and deployed on AWS EC2",
-                "Achieved 85\\% user satisfaction rate in beta testing with 200+ users"
+                "Brief description of what the project does",
+                "Key features or functionality you implemented",
+                "Technologies used and challenges overcome",
+                "Results or impact (users, performance improvements, etc.)"
             ]
         },
-        "expense-tracker": {
-            "title": "Personal Expense Tracker",
+        "project-key-2": {
+            "title": "Project Name 2",
             "technologies": [
-                "React",
-                "Node.js",
-                "MongoDB",
-                "Express.js"
+                "Technology1",
+                "Technology2"
             ],
-            "duration": "Jan 2024 -- Feb 2024",
+            "duration": "Start Date -- End Date",
             "description": [
-                "Developed a full-stack web application for tracking personal expenses and budgeting",
-                "Implemented user authentication and data visualization with interactive charts",
-                "Used MongoDB for data storage and Express.js for RESTful API development",
-                "Added features for expense categorization and monthly budget planning"
+                "Description of second project",
+                "What problem it solves",
+                "Technical implementation details",
+                "Outcomes or lessons learned"
             ]
         },
-        "weather-app": {
-            "title": "Weather Forecast Application",
+        "project-key-3": {
+            "title": "Project Name 3",
             "technologies": [
-                "JavaScript",
-                "HTML/CSS",
-                "Weather API"
+                "Technology1",
+                "Technology2",
+                "Technology3"
             ],
-            "duration": "Nov 2023 -- Dec 2023",
+            "duration": "Date",
             "description": [
-                "Created a responsive weather application displaying current and 7-day forecasts",
-                "Integrated with OpenWeatherMap API for real-time weather data",
-                "Implemented geolocation services for automatic location detection",
-                "Added dark/light theme toggle and saved user preferences in local storage"
-            ]
-        },
-        "todo-manager": {
-            "title": "Task Management System",
-            "technologies": [
-                "Java",
-                "Spring Boot",
-                "MySQL"
-            ],
-            "duration": "Sep 2023 -- Oct 2023",
-            "description": [
-                "Built a task management application with user authentication and role-based access",
-                "Implemented CRUD operations for tasks with priority levels and due dates",
-                "Used Spring Boot framework with MySQL database for data persistence",
-                "Added email notifications for upcoming deadlines using JavaMail API"
-            ]
-        },
-        "portfolio-website": {
-            "title": "Personal Portfolio Website",
-            "technologies": [
-                "HTML",
-                "CSS",
-                "JavaScript",
-                "GitHub Pages"
-            ],
-            "duration": "Aug 2023",
-            "description": [
-                "Designed and developed a responsive personal portfolio website from scratch",
-                "Implemented smooth scrolling navigation and interactive animations",
-                "Showcased projects with detailed descriptions and live demo links",
-                "Deployed using GitHub Pages with custom domain configuration"
+                "Description of third project",
+                "Key features and functionality",
+                "Technical challenges and solutions",
+                "Project outcomes or deployment details"
             ]
         }
     },
     "achievements": {
-        "hackathon-winner": {
-            "title": "Hackathon Winner",
-            "description": "Won first place in the Annual Tech Innovation Hackathon, developing a mobile app for local businesses in 48 hours."
+        "achievement-key-1": {
+            "title": "Achievement Title 1",
+            "description": "Description of your achievement, award, or recognition."
         },
-        "coding-competition": {
-            "title": "Programming Competition",
-            "description": "Secured third place in the Regional Programming Contest, solving 8 out of 12 algorithmic problems."
-        },
-        "volunteer-award": {
-            "title": "Community Service Award",
-            "description": "Received recognition for volunteering 100+ hours teaching coding to underprivileged youth at local community center."
+        "achievement-key-2": {
+            "title": "Achievement Title 2", 
+            "description": "Another achievement with specific details and impact."
         }
     },
     "interests": [
-        "Photography",
-        "Rock climbing",
-        "Chess",
-        "Cooking",
-        "Playing guitar",
-        "Hiking",
-        "Board games"
+        "Interest 1",
+        "Interest 2",
+        "Interest 3",
+        "Hobby 1",
+        "Hobby 2",
+        "Activity 1",
+        "Activity 2"
     ]
 }
